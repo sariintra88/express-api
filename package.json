@@ -1,0 +1,33 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "DTI201 - Week4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js ",
+    "dev": "nodemon ./index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natkrita26/express-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natkrita26/express-api/issues"
+  },
+  "homepage": "https://github.com/natkrita26/express-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
